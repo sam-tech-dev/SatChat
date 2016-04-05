@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.satchat.RagisterOnServer"
+    android:orientation="vertical"
+    android:background="#b5ffda"
+    android:weightSum="1"
+     >
+
+    
+    <ImageView 
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/logo"
+        
+        />
+    
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SatChat" 
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="#2c9a8e"
+        android:layout_marginBottom="10dp"
+        />
+    
+    <ListView 
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight=".25"
+        
+        ></ListView>
+    
+    
+     <EditText 
+         android:layout_height="0dp"
+         android:layout_weight=".22"
+         android:layout_width="match_parent"
+         android:hint="Type Username"
+         android:background="#c5d6d8"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"
+         android:textSize="18dp"
+         android:textColor="#000000"
+         android:id="@+id/mobile"
+         
+         />
+     
+     
+      <EditText 
+          android:layout_marginTop="10dp"
+         android:layout_height="0dp"
+         android:layout_weight=".22"
+         android:layout_width="match_parent"
+         android:hint="Type your password"
+          android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"
+         android:background="#c5d6d8"
+         android:textSize="18dp"
+         android:textColor="#000000"
+         android:id="@+id/passw"
+         
+         />
+      
+      
+      <Button 
+          android:layout_marginTop="10dp"
+        android:layout_height="0dp"
+         android:layout_weight=".22"
+         android:layout_width="match_parent"
+          android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"
+         android:layout_marginBottom="5dp"
+         android:text="connect"
+         android:background="#006666"
+         android:textColor="#ffffff"
+         android:textSize="18dp"
+         android:gravity="center"
+         android:id="@+id/registration"
+          />
+      
+     
+     
+
+</LinearLayout>

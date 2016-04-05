@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SatChat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_front_all_chat_list_wrapper">FrontAllChatListWrapper</string>
+    <string name="title_activity_all_chat_list_adapter">AllChatListAdapter</string>
+    <string name="title_activity_individual_chat_display">IndividualChatDisplay</string>
+    <string name="title_activity_individual_chat_adapter">IndividualChatAdapter</string>
+    <string name="title_activity_ragister_on_server">RagisterOnServer</string>
+
+</resources>

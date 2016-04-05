@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/smack-android-4.1.6.jar"/>
+	<classpathentry kind="lib" path="libs/smack-android-extensions-4.1.6.jar"/>
+	<classpathentry kind="lib" path="libs/smack-bosh-4.1.6.jar"/>
+	<classpathentry kind="lib" path="libs/smack-core-4.1.6.jar"/>
+	<classpathentry kind="lib" path="libs/smack-debug-4.1.6.jar"/>
+	<classpathentry kind="lib" path="libs/smack-extensions-4.1.6.jar"/>
+	<classpathentry kind="lib" path="libs/smack-tcp-4.1.6.jar"/>
+	<classpathentry kind="lib" path="libs/smack-compression-jzlib-4.1.6.jar"/>
+	<classpathentry kind="lib" path="libs/smack-im-4.1.6.jar"/>
+	<classpathentry kind="lib" path="libs/smack-jingle-old-4.1.6.jar"/>
+	<classpathentry kind="lib" path="libs/smack-legacy-4.1.6.jar"/>
+	<classpathentry kind="lib" path="libs/smack-sasl-provided-4.1.6.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="D:/iiit kota/WorkspaceForSatChat/SatChat/libs/jxmpp-core-0.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/iiit kota/WorkspaceForSatChat/SatChat/libs/jxmpp-util-cache-0.5.0-alpha2.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
